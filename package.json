@@ -1,0 +1,18 @@
+{
+  "name": "get-public-ip",
+  "version": "1.0.0",
+  "description": "Get your public ipv4 adress and copies it to the clipboard",
+  "main": "ip.js",
+  "scripts": {
+    "start": "node ip.js"
+  },
+  "keywords": [
+    "ipv4"
+  ],
+  "author": "notbozho",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "public-ip": "^4.0.2"
+  }
+}
